@@ -6,10 +6,10 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME = "Kidney-Disease-Classification-Deep-Learning-Project"
-AUTHOR_USER_NAME = "krishnaik06"
+REPO_NAME = "satelite-deeplearning"
+AUTHOR_USER_NAME = "muhd360"
 SRC_REPO = "cnnClassifier"
-AUTHOR_EMAIL = "entbappy73@gmail.com"
+AUTHOR_EMAIL = "damianpatriot41@gmail.com"
 
 
 setuptools.setup(
