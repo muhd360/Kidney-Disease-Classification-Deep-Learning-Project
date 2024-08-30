@@ -23,8 +23,14 @@ class PredictionPipeline:
         print(result)
 
         if result[0] == 1:
-            prediction = 'Tumor'
+            prediction = 'cloudy'
+            return [{ "image" : prediction}]
+        elif result[1]:
+            prediction = 'desert'
+            return [{ "image" : prediction}]
+        elif result[2]:
+            prediction = 'water'
             return [{ "image" : prediction}]
         else:
-            prediction = 'Normal'
+            prediction = 'green_area'
             return [{ "image" : prediction}]
